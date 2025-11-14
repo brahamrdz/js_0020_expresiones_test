@@ -27,8 +27,7 @@ function addDays(date, days) {
 }
 
 function getDayOfWeek(date) {
-    const days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-    return days[date.getDay()];
+    return date.getDay();
 }
 
 function formatDate(date) {

@@ -1,4 +1,5 @@
 function getCurrentDate() {
+    return new Date();
 }
 
 function getYear(date) {

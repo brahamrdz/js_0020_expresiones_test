@@ -23,7 +23,7 @@ function areNotEqual(a, b) {
 }
 
 function eitherOr(a, b) {
-    return a || b;
+    return (a || b) ? true : false;
 }
 
 function neitherNor(a, b) {
